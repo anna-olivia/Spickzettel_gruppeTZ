@@ -6,7 +6,7 @@
 
 <br>
 
-![Websprachen und ihre Aufgaben](./assets/HTML_CSS_JS.png) Abb.: Websprachen und ihre Aufgaben
+![Websprachen und ihre Aufgaben](./assets/HTML_CSS_JS.png) *Abb.: Websprachen und ihre Aufgaben*
 
 
 <br><br><br>
@@ -28,7 +28,7 @@
 
 
 <br><br><br>
-
+<!--
 ## HTML-Elemente
 **HTML** steht für ***Hypertext Markup Language*** und ist eine Auszeichnungssprache, die verwendet wird, um den Inhalt einer Webseite zu strukturieren und zu kennzeichnen. HTML ist zuständig für die Markierung verschiedener Elemente wie Überschriften, Fließtexte, Bilder und Links, damit der Webbrowser die Elemente den Nutzern anzeigen und für weitere Zwecke nutzen kann. In der Regel sind HTML Elemente valide – also gültig – wenn sie ein sogenanntes **Start - und Endtag** aufweisen.
 
@@ -71,6 +71,7 @@
 </html>
 ```
 <br>
+
 > [!TIP]
 > `<head>`und `<body>` befinden sich innerhalb des `<html>` Wurzel Elements - diese Elemente sind also in Wurzelelement verschachtelt oder anders gesagt, liegen zwischen **Start- und Endtag** des `<html>`Elements.
 
@@ -85,6 +86,7 @@
 | `<link>`     | Verknüpfung mit externen Dateien, z.B. CSS-Stylesheets  | `<link rel="stylesheet" href="style.css">`|
 
 <br><br><br>
+
 ### Body-Elemente (der sichtbare Bereich eurer Webseite)
     
 #### Block-Elemente (nehmen die gesamte Breite des Elternelements ein)
@@ -110,6 +112,7 @@
 | `<article>`   | Unabhängiger Artikel, der in sich geschlossen ist. | `<article>Artikel</article>`         |
 
 <br><br>
+
 > [!TIP]
 > Ein generisches HTML Element kann als Inhalt alle möglichen anderen Elemente verschachteln ohne spezifisch zu werden. Semantische HTML Elemente definieren ihren Inhalt sehr konkret, so sollte man nicht einen Fließtext mit einem `nav` Element markieren. 
 
@@ -162,6 +165,8 @@ Diese praktischen Kombinationen funktionieren nur in VS Code:
 Emmet sind Kurzformen, die VS Code zu Code umschreibt, hier einige kurze Beispiele für ***HTML***:
 - `!`               --> erzeugt in einen Boilerplate-Code (Grundstruktur)
 - `lorem50`         --> erzeugt einen Lorem-Text mit 50 Worten
+
+-->
 - `div.box`         --> erzeugt eine `<div class="box">`
 - `ul>li*3`         --> erzeugt eine `<ul>` mit 3 `<li>`Elementen
 - `a{weiterlesen}`  --> erzeugt ein `<a href="">weiterlesen</a>`
