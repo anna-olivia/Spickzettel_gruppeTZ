@@ -6,7 +6,7 @@
 
 <br>
 
-![Websprachen und ihre Aufgaben](./HTML_CSS_JS.png) *Abb.: Websprachen und ihre Aufgaben*
+![Websprachen und ihre Aufgaben](./assets/HTML_CSS_JS.png) *Abb.: Websprachen und ihre Aufgaben*
 
 
 <br><br>
