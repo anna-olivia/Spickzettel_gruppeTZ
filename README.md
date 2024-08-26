@@ -4,8 +4,12 @@
 
 [HTML](#1-html-die-websprache-für-das-gerüst-einer-website) und [CSS](#2-css-die-websprache-für-die-gestaltung-einer-website) sind Websprachen. Sie werden von Webentwickler*innen genutzt, um über den Webbrowser Webauftritte überhaupt erstmal anzeigen zu lassen.  Sobald wir HTML und CSS verwenden, kommunizieren wir mit dem Webbrowser. Wir kommunizieren über Code mit dem Webbrowser, der wiederum den Code den Nutzern unserer Website "übersetzt". Nutzer können sich über eine statische Website über bestimmte Themen informieren. Sobald Nutzer mit der Website (auch oft dann WebApp) interagieren, kommt die Skriptsprache [JavaScript](#3-js-die-websprache-für-die-dynamik-einer-website) hinzu. Alle drei Websprachen zusammen werden im **Frontend** – der Aufgabenbereich, der sich auf die Benutzeroberfläche konzentriert – genutzt. 
 
+<br>
+
 ![Websprachen und ihre Aufgaben](./assets/HTML_CSS_JS.png) Abb.: Websprachen und ihre Aufgaben
 
+
+<br><br><br>
 
 ## 1. HTML die Websprache für das Gerüst einer Website
 
@@ -21,6 +25,9 @@
 3. [JS-Workshop Tag](#3-js-die-websprache-für-die-dynamik-einer-website)
 
 4. [nützliche Tastenkombinationen](#4-nützliche-tastenkombinationen)
+
+
+<br><br><br>
 
 ## HTML-Elemente
 **HTML** steht für ***Hypertext Markup Language*** und ist eine Auszeichnungssprache, die verwendet wird, um den Inhalt einer Webseite zu strukturieren und zu kennzeichnen. HTML ist zuständig für die Markierung verschiedener Elemente wie Überschriften, Fließtexte, Bilder und Links, damit der Webbrowser die Elemente den Nutzern anzeigen und für weitere Zwecke nutzen kann. In der Regel sind HTML Elemente valide – also gültig – wenn sie ein sogenanntes **Start - und Endtag** aufweisen.
@@ -42,6 +49,8 @@
 
 ---
 
+<br><br><br>
+
 ### Grundstruktur einer HTML-Seite
 
 | HTML-Element    | Beschreibung                                    | Beispiel                              |
@@ -61,10 +70,11 @@
     <body>...</body>
 </html>
 ```
-
+<br>
 > [!TIP]
 > `<head>`und `<body>` befinden sich innerhalb des `<html>` Wurzel Elements - diese Elemente sind also in Wurzelelement verschachtelt oder anders gesagt, liegen zwischen **Start- und Endtag** des `<html>`Elements.
-<br>
+
+<br><br><br>
 
 ### Head-Elemente (erscheinen nicht auf der Seite, sondern nur Infos für den Browser und Google)
 
@@ -74,7 +84,7 @@
 | `<meta>`     | Metainformationen, z.B. Zeichensatz oder Keywords       | `<meta charset="UTF-8">`                 |
 | `<link>`     | Verknüpfung mit externen Dateien, z.B. CSS-Stylesheets  | `<link rel="stylesheet" href="style.css">`|
 
-
+<br><br><br>
 ### Body-Elemente (der sichtbare Bereich eurer Webseite)
     
 #### Block-Elemente (nehmen die gesamte Breite des Elternelements ein)
@@ -87,8 +97,8 @@
 | `<ol>`         | Geordnete Liste                           | `<ol><li>Erstes Element</li></ol>`   |
 | `<li>`         | Listenelement                             | `<li>Listeneintrag</li>`             |
 | `<div>`        | generisches Containerelement                          | `<div>Inhalt</div>`                  |
-
-#### semantische Containerelemente:
+<br>
+##### semantische Containerelemente:
 
 | HTML-Element  | Beschreibung                               | Beispiel                             |
 |:-------------:|:------------------------------------------:|:------------------------------------:|
@@ -99,11 +109,15 @@
 | `<nav>`       | Definiert eine Gruppe von Navigationslinks. | `<nav>Navigation</nav>`              |
 | `<article>`   | Unabhängiger Artikel, der in sich geschlossen ist. | `<article>Artikel</article>`         |
 
+<br><br>
 > [!TIP]
 > Ein generisches HTML Element kann als Inhalt alle möglichen anderen Elemente verschachteln ohne spezifisch zu werden. Semantische HTML Elemente definieren ihren Inhalt sehr konkret, so sollte man nicht einen Fließtext mit einem `nav` Element markieren. 
 
-> [!Wichtig]
+> [!important]
 > Je sorgfältiger man von Anfang arbeiten, desto weniger Vorgangsfehler entstehen in der weiteren Entwicklung einer Website.
+
+
+<br><br><br>
    
 #### Inline Elemente (nehmen nur die Breite ihres Inhalts)
 
