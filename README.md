@@ -6,7 +6,7 @@
 
 <br>
 
-![Websprachen und ihre Aufgaben](./assets/HTML_CSS_JS.png) Abb.: Websprachen und ihre Aufgaben
+![Websprachen und ihre Aufgaben](./assets/HTML_CSS_JS.png) *Abb.: Websprachen und ihre Aufgaben*
 
 
 <br><br><br>
@@ -71,6 +71,7 @@
 </html>
 ```
 <br>
+
 > [!TIP]
 > `<head>`und `<body>` befinden sich innerhalb des `<html>` Wurzel Elements - diese Elemente sind also in Wurzelelement verschachtelt oder anders gesagt, liegen zwischen **Start- und Endtag** des `<html>`Elements.
 
@@ -167,5 +168,6 @@ Emmet sind Kurzformen, die VS Code zu Code umschreibt, hier einige kurze Beispie
 - `a{weiterlesen}`  --> erzeugt ein `<a href="">weiterlesen</a>`
 - `section>img+p+a` --> erzeugt eine Sektion und darin ein `<img>`, `<p>`und ein `<a>`
 
-Ihr könnt diese Elemente miteinander kombinieren und damit sehr umfangreiche Codeblöcke bauen. Benutzt diese aber erst, wenn ihr euch mit eurem html sicher seid. Je länger eure Kombinationen sind, desto leichter könnt ihr Fehler produzieren und den Überblick verlieren. Es gibt diese Emmet Abkürzungen auch für CSS. Einen (sehr) umfangreichen Überblick über die verschiedenen Möglichkeiten findet ihr hier:
+> [!TIP]
+> Ihr könnt diese Elemente miteinander kombinieren und damit sehr umfangreiche Codeblöcke bauen. Benutzt diese aber erst, wenn ihr euch mit eurem html sicher seid. Je länger eure Kombinationen sind, desto leichter könnt ihr Fehler produzieren und den Überblick verlieren. Es gibt diese Emmet Abkürzungen auch für CSS. Einen (sehr) umfangreichen Überblick über die verschiedenen Möglichkeiten findet ihr hier:
 ***[Emmet Cheat Sheet](https://docs.emmet.io/cheat-sheet/)***
