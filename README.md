@@ -1,4 +1,4 @@
-# HTML und CSS Spickzettel
+# HTML und CSS Spickzettel 💻🤓💡
 
 ## Allgemein
 
