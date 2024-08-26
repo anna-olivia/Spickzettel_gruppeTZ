@@ -11,7 +11,7 @@
 
 <br><br><br>
 
-## 1. HTML die Websprache für das Gerüst einer Website
+
 
 1. [HTML-Elemente](#html-elemente)
   - [Grundstruktur](#grundstruktur-einer-html-seite)
@@ -30,6 +30,8 @@
 <br><br><br>
 
 <!--
+## 1. HTML die Websprache für das Gerüst einer Website
+
 ## HTML-Elemente
 **HTML** steht für ***Hypertext Markup Language*** und ist eine Auszeichnungssprache, die verwendet wird, um den Inhalt einer Webseite zu strukturieren und zu kennzeichnen. HTML ist zuständig für die Markierung verschiedener Elemente wie Überschriften, Fließtexte, Bilder und Links, damit der Webbrowser die Elemente den Nutzern anzeigen und für weitere Zwecke nutzen kann. In der Regel sind HTML Elemente valide – also gültig – wenn sie ein sogenanntes **Start - und Endtag** aufweisen.
 
