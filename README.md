@@ -1,4 +1,4 @@
-# HTML und CSS Spickzettel
+# HTML und CSS Spickzettel 💻🤓💡
 
 ## Allgemein
 
@@ -9,10 +9,7 @@
 ![Websprachen und ihre Aufgaben](./assets/HTML_CSS_JS.png) *Abb.: Websprachen und ihre Aufgaben*
 
 
-<br><br><br>
-
-## 1. HTML die Websprache für das Gerüst einer Website
-
+<br><br>
 1. [HTML-Elemente](#html-elemente)
   - [Grundstruktur](#grundstruktur-einer-html-seite)
     - [Head-Elemente](#head-elemente-erscheinen-nicht-auf-der-seite-sondern-nur-infos-für-den-browser-und-google)
@@ -22,12 +19,15 @@
 
 2. [CSS-Eigenschaften](#2-css-die-websprache-für-die-gestaltung-einer-website)
 
-3. [JS-Workshop Tag](#3-js-die-websprache-für-die-dynamik-einer-website)
+3. [JavaScript](#3-js-die-websprache-für-die-dynamik-einer-website)
 
 4. [nützliche Tastenkombinationen](#4-nützliche-tastenkombinationen)
 
 
 <br><br><br>
+
+<!--
+## 1. HTML die Websprache für das Gerüst einer Website
 
 ## HTML-Elemente
 **HTML** steht für ***Hypertext Markup Language*** und ist eine Auszeichnungssprache, die verwendet wird, um den Inhalt einer Webseite zu strukturieren und zu kennzeichnen. HTML ist zuständig für die Markierung verschiedener Elemente wie Überschriften, Fließtexte, Bilder und Links, damit der Webbrowser die Elemente den Nutzern anzeigen und für weitere Zwecke nutzen kann. In der Regel sind HTML Elemente valide – also gültig – wenn sie ein sogenanntes **Start - und Endtag** aufweisen.
@@ -86,6 +86,7 @@
 | `<link>`     | Verknüpfung mit externen Dateien, z.B. CSS-Stylesheets  | `<link rel="stylesheet" href="style.css">`|
 
 <br><br><br>
+
 ### Body-Elemente (der sichtbare Bereich eurer Webseite)
     
 #### Block-Elemente (nehmen die gesamte Breite des Elternelements ein)
@@ -111,6 +112,7 @@
 | `<article>`   | Unabhängiger Artikel, der in sich geschlossen ist. | `<article>Artikel</article>`         |
 
 <br><br>
+
 > [!TIP]
 > Ein generisches HTML Element kann als Inhalt alle möglichen anderen Elemente verschachteln ohne spezifisch zu werden. Semantische HTML Elemente definieren ihren Inhalt sehr konkret, so sollte man nicht einen Fließtext mit einem `nav` Element markieren. 
 
@@ -136,37 +138,41 @@
 
 ## 3. JS die Websprache für die Dynamik einer Website
 
+
+-->
+
 ## 4. Nützliche Tastenkombinationen
 
 Tastenkombinationen, die in **VS Code** und anderen Programmen funktionieren:
 
-- Fenster wechseln --> `Alt` + `Tab`
-- Kopieren        --> `STRG` + `c`
-- Ausschneiden    --> `STRG` + `x`
-- Einfügen        --> `STRG` + `v`
-- Suchen          --> `STRG` + `f`
-- Speichern       --> `STRG` + `s`
-- alles markieren --> `STRG` + `a`
+- Fenster wechseln = `Alt` + `Tab`
+- Kopieren         = `STRG` + `c`
+- Ausschneiden     = `STRG` + `x`
+- Einfügen         = `STRG` + `v`
+- Suchen           = `STRG` + `f`
+- Speichern        = `STRG` + `s`
+- alles markieren  = `STRG` + `a`
 
+<!--
 
 ### VS-Code
 
 Diese praktischen Kombinationen funktionieren nur in VS Code:
-- `Alt` + `Pfeiltaste`  --> Zeilen verschieben, hoch/runter
-- `Alt` + `z`           --> Zeilenumbruch anschalten/ausschalten
-- `STRG`+ `#`           --> erzeugt einen Kommentar 
-- `STRG`+ `l`           --> Zeile markieren
+- `Alt` + `Pfeiltaste` = Zeilen verschieben, hoch/runter
+- `Alt` + `z`          = Zeilenumbruch anschalten/ausschalten
+- `STRG`+ `#`          = erzeugt einen Kommentar 
+- `STRG`+ `l`          = Zeile markieren
 
 
 #### Emmet Abkürzungen in VS Code
 
 Emmet sind Kurzformen, die VS Code zu Code umschreibt, hier einige kurze Beispiele für ***HTML***:
-- `!`               --> erzeugt in einen Boilerplate-Code (Grundstruktur)
-- `lorem50`         --> erzeugt einen Lorem-Text mit 50 Worten
-- `div.box`         --> erzeugt eine `<div class="box">`
-- `ul>li*3`         --> erzeugt eine `<ul>` mit 3 `<li>`Elementen
-- `a{weiterlesen}`  --> erzeugt ein `<a href="">weiterlesen</a>`
-- `section>img+p+a` --> erzeugt eine Sektion und darin ein `<img>`, `<p>`und ein `<a>`
+- `!`               = erzeugt in einen Boilerplate-Code (Grundstruktur)
+- `lorem50`         = erzeugt einen Lorem-Text mit 50 Worten
+- `div.box`         = erzeugt eine `<div class="box">`
+- `ul>li*3`         = erzeugt eine `<ul>` mit 3 `<li>`Elementen
+- `a{weiterlesen}`  = erzeugt ein `<a href="">weiterlesen</a>`
+- `section>img+p+a` = erzeugt eine Sektion und darin ein `<img>`, `<p>`und ein `<a>`
 
 > [!TIP]
 > Ihr könnt diese Elemente miteinander kombinieren und damit sehr umfangreiche Codeblöcke bauen. Benutzt diese aber erst, wenn ihr euch mit eurem html sicher seid. Je länger eure Kombinationen sind, desto leichter könnt ihr Fehler produzieren und den Überblick verlieren. Es gibt diese Emmet Abkürzungen auch für CSS. Einen (sehr) umfangreichen Überblick über die verschiedenen Möglichkeiten findet ihr hier:
