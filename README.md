@@ -9,10 +9,7 @@
 ![Websprachen und ihre Aufgaben](./assets/HTML_CSS_JS.png) *Abb.: Websprachen und ihre Aufgaben*
 
 
-<br><br><br>
-
-
-
+<br><br>
 1. [HTML-Elemente](#html-elemente)
   - [Grundstruktur](#grundstruktur-einer-html-seite)
     - [Head-Elemente](#head-elemente-erscheinen-nicht-auf-der-seite-sondern-nur-infos-für-den-browser-und-google)
