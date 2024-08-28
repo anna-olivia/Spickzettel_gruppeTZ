@@ -56,7 +56,6 @@
 
 <br><br><br>
 
-<!--
 
 ### Grundstruktur einer HTML-Seite
 
@@ -90,10 +89,8 @@
 |:------------:|:------------------------------------------------------:|:----------------------------------------:|
 | `<title>`    | Titel der Webseite, erscheint in der Browser-Tab-Leiste | `<title>Meine Webseite</title>`          |
 | `<meta>`     | Metainformationen, z.B. Zeichensatz oder Keywords       | `<meta charset="UTF-8">`                 |
+| `<link>`     | Verknüpfung mit externen Dateien, z.B. CSS-Stylesheets  | `<link rel="stylesheet" href="style.css">`|
 
-
-<!-- | `<link>`     | Verknüpfung mit externen Dateien, z.B. CSS-Stylesheets  | `<link rel="stylesheet" href="style.css">`|
--->
 <br><br><br>
 
 ### Body-Elemente (der sichtbare Bereich eurer Webseite)
@@ -102,7 +99,7 @@
 |:-------------:|:------------------------------------------:|:------------------------------------:|
 | `<h1>`...`<h6>` | Überschriften                            | `<h1>Überschrift</h1>`               |
 | `<p>`          | Textabsatz                                | `<p>Textabsatz</p>`                  |
-| `<a>`        | Hyperlink (intern, extern)      | `<a href="./unterseite.html"> Dies ist der klickbare Linktext </a>` <br>  `<a href="url"> Die ist der klickbare Linktext. </a>`           |
+| `<a>`        | Hyperlink (intern, extern)      | `<a href="./unterseite.html"> Dies ist der klickbare Linktext </a>`<br>`<a href="url"> Die ist der klickbare Linktext</a>`|
 | `<img>`      | Bild einfügen                                 | `<img src="./bilder/meinBild.jpg" alt="Bildbeschreibung">`  |
 
 #### HTML Attribute
@@ -112,7 +109,7 @@ Einige HTML Elemente brauchen notwendigerweise Zusatzinformationen, um zu funkti
 | HTML-Attribut  | Beschreibung                               | Beispiel                             |
 |:-------------:|:------------------------------------------:|:------------------------------------:|
 | `href` | Schlüssel des Attributs                            | `<a href="./kontakt.html">Zur Kontaktseite</a>`|
-               | `"./kontakt.html` | Wert des Attributs(hier Strukturpfad/Wegbeschreibung zum gewünschten Zieldokument)                            |         `<a href="./kontakt.html">Zur Kontaktseite</a>`       |
+| `"./kontakt.html"` | Wert des Attributs(hier Strukturpfad/Wegbeschreibung zum gewünschten Zieldokument)|`<a href="./kontakt.html">Zur Kontaktseite</a>`|
 
 <!--
 
