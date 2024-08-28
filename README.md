@@ -17,23 +17,6 @@
         - [Block Elemente](#block-elemente-nehmen-die-gesamte-breite-des-elternelements-ein)
         - [Inline Elemente](#inline-elemente-nehmen-nur-die-breite-ihres-inhalts)
 
-
-## 1. HTML die Websprache für das Gerüst einer Website
-
-## HTML-Elemente
-**HTML** steht für ***Hypertext Markup Language*** und ist eine Auszeichnungssprache, die verwendet wird, um den Inhalt einer Webseite zu strukturieren und zu kennzeichnen. HTML ist zuständig für die Markierung verschiedener Elemente wie Überschriften, Fließtexte, Bilder und Links, damit der Webbrowser die Elemente den Nutzern anzeigen und für weitere Zwecke nutzen kann. In der Regel sind HTML Elemente valide – also gültig – wenn sie ein sogenanntes **Start - und Endtag** aufweisen.
-
-```
-<p>Ich bin ein Text, der für den Webbrowser als Textabsatz (abgekürzt p) markiert wurde.</p>
-```
-
----
-
-> [!TIP]
-> Start- und Endtag bestimmen den Anfang und das Ende der Markierung.
-
----
-
 2. [CSS-Eigenschaften](#2-css-die-websprache-für-die-gestaltung-einer-website)
 
 3. [JavaScript](#3-js-die-websprache-für-die-dynamik-einer-website)
@@ -43,7 +26,7 @@
 
 <br><br><br>
 
-<!--
+
 ## 1. HTML die Websprache für das Gerüst einer Website
 
 ## HTML-Elemente
@@ -67,6 +50,8 @@
 ---
 
 <br><br><br>
+
+<!--
 
 ### Grundstruktur einer HTML-Seite
 
