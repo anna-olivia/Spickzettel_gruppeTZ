@@ -35,7 +35,7 @@
 ```
 <p>Ich bin ein Text, der für den Webbrowser als Textabsatz (abgekürzt p) markiert wurde.</p>
 ```
-
+``` <!-- Ich bin ein HTML Kommentar --> ```
 ---
 
 > [!TIP]
@@ -48,6 +48,9 @@
 > nur wenn Texte, Bilder etc. richtig markiert wurden, können wir sie später färben, ausrichten, gestalten ohne Verfahrensfehler zu riskieren! 
 
 ---
+
+> [!TIP]  
+> Kommentare sind für uns Menschen wichtig damit wir Code in der Entwicklungsumgebung nachvollziehen können und Kolleg*innen und uns Hinweise zum Code zu geben. Kommentare werden im Browser nicht für die Nutzer angezeigt. 
 
 <br><br><br>
 
@@ -151,18 +154,21 @@ Tastenkombinationen, die in **VS Code** und anderen Programmen funktionieren:
 - Kopieren         = `STRG` + `c`
 - Ausschneiden     = `STRG` + `x`
 - Einfügen         = `STRG` + `v`
+- rückgängig       = `Strg` + `z`
 - Suchen           = `STRG` + `f`
 - Speichern        = `STRG` + `s`
 - alles markieren  = `STRG` + `a`
 
-<!--
-
 ### VS-Code
 
 Diese praktischen Kombinationen funktionieren nur in VS Code:
+- `STRG`+ `#`          = erzeugt einen Kommentar 
+
+
+<!--
+
 - `Alt` + `Pfeiltaste` = Zeilen verschieben, hoch/runter
 - `Alt` + `z`          = Zeilenumbruch anschalten/ausschalten
-- `STRG`+ `#`          = erzeugt einen Kommentar 
 - `STRG`+ `l`          = Zeile markieren
 
 
