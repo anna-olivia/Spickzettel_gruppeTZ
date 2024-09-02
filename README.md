@@ -101,6 +101,9 @@
 | `<p>`          | Textabsatz                                | `<p>Textabsatz</p>`                  |
 | `<a>`        | Hyperlink (intern, extern)      | `<a href="./unterseite.html"> Dies ist der klickbare Linktext </a>`<br>`<a href="url"> Die ist der klickbare Linktext</a>`|
 | `<img>`      | Bild einfügen                                 | `<img src="./bilder/meinBild.jpg" alt="Bildbeschreibung">`  |
+| `<ul>`         | Ungeordnete Liste                         | `<ul><li>Element</li></ul>`          |
+| `<ol>`         | Geordnete Liste                           | `<ol><li>Erstes Element</li></ol>`   |
+| `<li>`         | Listenelement                             | `<li>Listeneintrag</li>`             |
 
 #### HTML Attribute
 
