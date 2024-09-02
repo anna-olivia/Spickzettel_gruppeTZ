@@ -17,8 +17,7 @@
         - [Block Elemente](#block-elemente-nehmen-die-gesamte-breite-des-elternelements-ein)
         - [Inline Elemente](#inline-elemente-nehmen-nur-die-breite-ihres-inhalts)
 
-2. [CSS-Eigenschaften](#2-css-die-websprache-für-die-gestaltung-einer-website)
-[CSS-Eigenschaften](#css-eigenschaften)
+2. [CSS-Eigenschaften](#css-eigenschaften)
     - [Textformatierung](#textformatierung)
     - [Größen](#größen)
     - [Hintergrund](#hintergrund)
@@ -130,6 +129,7 @@ Einige HTML Elemente brauchen notwendigerweise Zusatzinformationen, um zu funkti
 | `<li>`         | Listenelement                             | `<li>Listeneintrag</li>`             |
 | `<div>`        | generisches Containerelement                          | `<div>Inhalt</div>`                  |
 <br>
+
 ##### semantische Containerelemente:
 
 | HTML-Element  | Beschreibung                               | Beispiel                             |
