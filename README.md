@@ -10,6 +10,9 @@
 
 
 <br><br>
+
+## Inhalt
+
 1. [HTML-Elemente](#html-elemente)
   - [Grundstruktur](#grundstruktur-einer-html-seite)
     - [Head-Elemente](#head-elemente-erscheinen-nicht-auf-der-seite-sondern-nur-infos-für-den-browser-und-google)
@@ -58,6 +61,7 @@
 
 <br><br><br>
 
+[zurück zur Inhaltsübersicht](#inhalt)
 
 ### Grundstruktur einer HTML-Seite
 
@@ -94,6 +98,10 @@
 | `<link>`     | Verknüpfung mit externen Dateien, z.B. CSS-Stylesheets  | `<link rel="stylesheet" href="style.css">`|
 
 <br><br><br>
+
+[zurück zur Inhaltsübersicht](#inhalt)
+
+<br>
 
 ### Body-Elemente (der sichtbare Bereich eurer Webseite)
     
@@ -149,7 +157,6 @@ Einige HTML Elemente brauchen notwendigerweise Zusatzinformationen, um zu funkti
 > [!important]
 > Je sorgfältiger man von Anfang arbeiten, desto weniger Vorgangsfehler entstehen in der weiteren Entwicklung einer Website.
 
-
 <br><br><br>
    
 #### Inline Elemente (nehmen nur die Breite ihres Inhalts)
@@ -161,6 +168,9 @@ Einige HTML Elemente brauchen notwendigerweise Zusatzinformationen, um zu funkti
 | `<img>`      | Bild einfügen                                 | `<img src="./bilder/meinBild.jpg" alt="Bildbeschreibung">`  |
 
   
+[zurück zur Inhaltsübersicht](#inhalt)
+
+<br>
 
 ## 2. CSS die Websprache für die Gestaltung einer Website
 
@@ -187,6 +197,10 @@ p {
 
 ```
 
+[zurück zur Inhaltsübersicht](#inhalt)
+
+<br>
+
 
 <!--
 
@@ -198,7 +212,9 @@ p {
 | Nachfahren-Selektor   | Wählt alle Elemente innerhalb eines bestimmten Elternteils aus. | `div p { color: green; }`          |
 | `:hover`              | Pseudoklasse für den Hover-Zustand eines Elements.    | `a:hover { color: red; }`           |
 
+[zurück zur Inhaltsübersicht](#inhalt)
 
+<br>
 
 ### Textformatierung
 | Eigenschaft       | Beschreibung                                   | Beispiel                        |
@@ -210,7 +226,9 @@ p {
 | `font-family`     | Bestimmt die Schriftart.                       | `font-family: Arial, sans-serif;`|
 | `font-style`      | Legt den Stil der Schrift fest (z.B. kursiv).  | `font-style: italic;`           |
 
+[zurück zur Inhaltsübersicht](#inhalt)
 
+<br>
 
 ### Größen, Abstände und Rahmen (Boxmodel)
 | Eigenschaft | Beschreibung                            | Beispiel              |
@@ -220,6 +238,10 @@ p {
 | `margin`    | Bestimmt den Außenabstand eines Elements. | `margin: 20px;`       |
 | `padding`   | Setzt den Innenabstand eines Elements.  | `padding: 15px;`      |
 | `border`    | Definiert die Rahmenlinie eines Elements. | `border: 1px solid black;` |
+
+[zurück zur Inhaltsübersicht](#inhalt)
+
+<br>
 
 ## Hintergrund
 | Eigenschaft           | Beschreibung                                          | Beispiel                            |
@@ -231,6 +253,10 @@ p {
 | `background-attachment` | Legt fest, ob das Hintergrundbild scrollt oder fixiert ist. | `background-attachment: fixed;` |
 
 
+[zurück zur Inhaltsübersicht](#inhalt)
+
+<br>
+
 ## Flex (erste Schritte)
 | Eigenschaft      | Beschreibung                                            | Beispiel                        |
 |------------------|---------------------------------------------------------|---------------------------------|
@@ -240,6 +266,9 @@ p {
 | `gap`            | Legt den Abstand zwischen den flexiblen Elementen fest. | `gap: 10px;`                    |
 | `flex-wrap`      | Bestimmt, ob die flexiblen Elemente in einer einzigen Zeile oder in mehreren Zeilen angezeigt werden. | `flex-wrap: wrap;`              |
 
+[zurück zur Inhaltsübersicht](#inhalt)
+
+<br>
 
 ## Erweiterte CSS-Effekte
 | Eigenschaft           | Beschreibung                                          | Beispiel                            |
@@ -252,7 +281,9 @@ p {
 
 <br><br><br>
 
+[zurück zur Inhaltsübersicht](#inhalt)
 
+<br>
 
 ## 3. JS die Websprache für die Dynamik einer Website
 
@@ -272,12 +303,17 @@ Tastenkombinationen, die in **VS Code** und anderen Programmen funktionieren:
 - Speichern        = `STRG` + `s`
 - alles markieren  = `STRG` + `a`
 
+[zurück zur Inhaltsübersicht](#inhalt)
+
+<br>
+
 ### VS-Code
 
 Diese praktischen Kombinationen funktionieren nur in VS Code:
 - `STRG`+ `#`          = erzeugt einen Kommentar 
 - `!`+ `tab`          = erzeugt das HTML Grundgerüst (auch boilerplate genannt) 
 - `p` + `tab`          = erzeugt ein HTML Textabsatz (wenn ihr h1 wählt erzeugt es eine h1 Überschrift etc.)
+- `AltGr` + `7`        = erzeugt die geschweiften Klammern , den Deklarationsblock in CSS `{ }`
 
 
 <!--
