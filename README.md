@@ -116,7 +116,7 @@ Einige HTML Elemente brauchen notwendigerweise Zusatzinformationen, um zu funkti
 | `href` | Schlüssel des Attributs                            | `<a href="./kontakt.html">Zur Kontaktseite</a>`|
 | `"./kontakt.html"` | Wert des Attributs(hier Strukturpfad/Wegbeschreibung zum gewünschten Zieldokument)|`<a href="./kontakt.html">Zur Kontaktseite</a>`|
 
-<!--
+
 
 #### Block-Elemente (nehmen die gesamte Breite des Elternelements ein)
 
@@ -161,7 +161,7 @@ Einige HTML Elemente brauchen notwendigerweise Zusatzinformationen, um zu funkti
 | `<img>`      | Bild einfügen                                 | `<img src="./bilder/meinBild.jpg" alt="Bildbeschreibung">`  |
 
   
-
+<!--
 ## 2. CSS die Websprache für die Gestaltung einer Website
 <br><br><br>
 ## CSS-Eigenschaften
