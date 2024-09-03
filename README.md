@@ -163,8 +163,12 @@ Einige HTML Elemente brauchen notwendigerweise Zusatzinformationen, um zu funkti
   
 
 ## 2. CSS die Websprache für die Gestaltung einer Website
+
 <br>
+<br>
+
 ## CSS-Eigenschaften
+
 **CSS** steht für ***Cascading Style Sheets*** und wird verwendet, um das Aussehen von HTML-Elementen auf einer Webseite zu definieren. Mit CSS können verschiedene Eigenschaften wie Farbe, Schriftart und Positionierung definiert werden. Durch die Trennung von Inhalt und Design wird das Ändern des Aussehens der Webseite einfacher, da nur das CSS geändert werden muss, ohne den HTML-Code zu bearbeiten.
 
 
