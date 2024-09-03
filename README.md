@@ -61,7 +61,7 @@
 
 <br><br><br>
 
-[zurück zur Inhaltsübersicht](#inhalt)
+
 
 ### Grundstruktur einer HTML-Seite
 
@@ -99,9 +99,7 @@
 
 <br><br><br>
 
-[zurück zur Inhaltsübersicht](#inhalt)
 
-<br>
 
 ### Body-Elemente (der sichtbare Bereich eurer Webseite)
     
@@ -167,14 +165,12 @@ Einige HTML Elemente brauchen notwendigerweise Zusatzinformationen, um zu funkti
 | `<span>`       | Element, das ausgewählten Bereich makiert  | `<p> Dies ist ein Textabsatz und innerhalb dieses Fließtextes kann ich bestimmte <span>Bereiche</span> zusätlich makieren.</p>`         |
 | `<img>`      | Bild einfügen                                 | `<img src="./bilder/meinBild.jpg" alt="Bildbeschreibung">`  |
 
-  
+  <br>
 [zurück zur Inhaltsübersicht](#inhalt)
 
 <br>
 
 ## 2. CSS die Websprache für die Gestaltung einer Website
-
-<br>
 <br>
 
 ## CSS-Eigenschaften
@@ -279,12 +275,13 @@ p {
 
 
 
-<br><br><br>
+
 
 [zurück zur Inhaltsübersicht](#inhalt)
 
 <br>
 
+<br><br><br>
 ## 3. JS die Websprache für die Dynamik einer Website
 
 
@@ -303,7 +300,6 @@ Tastenkombinationen, die in **VS Code** und anderen Programmen funktionieren:
 - Speichern        = `STRG` + `s`
 - alles markieren  = `STRG` + `a`
 
-[zurück zur Inhaltsübersicht](#inhalt)
 
 <br>
 
@@ -322,6 +318,8 @@ Diese praktischen Kombinationen funktionieren nur in VS Code:
 - `Alt` + `z`          = Zeilenumbruch anschalten/ausschalten
 - `STRG`+ `l`          = Zeile markieren
 
+[zurück zur Inhaltsübersicht](#inhalt)
+ <br>
 
 #### Emmet Abkürzungen in VS Code
 
@@ -336,3 +334,5 @@ Emmet sind Kurzformen, die VS Code zu Code umschreibt, hier einige kurze Beispie
 > [!TIP]
 > Ihr könnt diese Elemente miteinander kombinieren und damit sehr umfangreiche Codeblöcke bauen. Benutzt diese aber erst, wenn ihr euch mit eurem html sicher seid. Je länger eure Kombinationen sind, desto leichter könnt ihr Fehler produzieren und den Überblick verlieren. Es gibt diese Emmet Abkürzungen auch für CSS. Einen (sehr) umfangreichen Überblick über die verschiedenen Möglichkeiten findet ihr hier:
 ***[Emmet Cheat Sheet](https://docs.emmet.io/cheat-sheet/)***
+
+-->
