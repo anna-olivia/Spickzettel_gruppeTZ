@@ -166,6 +166,7 @@ Einige HTML Elemente brauchen notwendigerweise Zusatzinformationen, um zu funkti
 | `<img>`      | Bild einfügen                                 | `<img src="./bilder/meinBild.jpg" alt="Bildbeschreibung">`  |
 
   <br>
+
 [zurück zur Inhaltsübersicht](#inhalt)
 
 <br>
