@@ -312,6 +312,8 @@ Diese praktischen Kombinationen funktionieren nur in VS Code:
 - `p` + `tab`          = erzeugt ein HTML Textabsatz (wenn ihr h1 wählt erzeugt es eine h1 Überschrift etc.)
 - `AltGr` + `7`        = erzeugt die geschweiften Klammern , den Deklarationsblock in CSS `{ }`
 
+[zurück zur Inhaltsübersicht](#inhalt)
+ <br>
 
 <!--
 
