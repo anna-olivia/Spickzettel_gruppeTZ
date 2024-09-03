@@ -130,7 +130,7 @@ Einige HTML Elemente brauchen notwendigerweise Zusatzinformationen, um zu funkti
 | `<div>`        | generisches Containerelement                          | `<div>Inhalt</div>`                  |
 <br>
 
-##### semantische Containerelemente:
+##### Containerelemente, die eine klare vordefinierte Bedeutung markieren (semantisch):
 
 | HTML-Element  | Beschreibung                               | Beispiel                             |
 |:-------------:|:------------------------------------------:|:------------------------------------:|
@@ -161,11 +161,30 @@ Einige HTML Elemente brauchen notwendigerweise Zusatzinformationen, um zu funkti
 | `<img>`      | Bild einfügen                                 | `<img src="./bilder/meinBild.jpg" alt="Bildbeschreibung">`  |
 
   
-<!--
+
 ## 2. CSS die Websprache für die Gestaltung einer Website
-<br><br><br>
+<br>
 ## CSS-Eigenschaften
 **CSS** steht für ***Cascading Style Sheets*** und wird verwendet, um das Aussehen von HTML-Elementen auf einer Webseite zu definieren. Mit CSS können verschiedene Eigenschaften wie Farbe, Schriftart und Positionierung definiert werden. Durch die Trennung von Inhalt und Design wird das Ändern des Aussehens der Webseite einfacher, da nur das CSS geändert werden muss, ohne den HTML-Code zu bearbeiten.
+
+
+Da es sich bei CSS, um eine andere Websprache handelt, müssen wir auch die Schreibweise ändern:
+
+```
+ /* auch die Kommentare sehen in CSS anders aus, werden aber noch mit strg + # ausgelöst */
+/* p ist hier der Selektor (Auswahlwerkzeug) und teilt dem Browser mit,
+ dass alle HTML Elemente des Typus p ausgewählt werden sollen,
+ um dann die Eigenschaften dieser Elementeändern zu können */
+
+p {
+    color: blue;
+/* Eigenschaft: Wert; */
+  }
+
+```
+
+
+<!--
 
 ## Selektoren
 | Selektor              | Beschreibung                                          | Beispiel                            |
@@ -186,6 +205,7 @@ Einige HTML Elemente brauchen notwendigerweise Zusatzinformationen, um zu funkti
 | `font-weight`     | Definiert die Dicke der Schrift.               | `font-weight: bold;`            |
 | `font-family`     | Bestimmt die Schriftart.                       | `font-family: Arial, sans-serif;`|
 | `font-style`      | Legt den Stil der Schrift fest (z.B. kursiv).  | `font-style: italic;`           |
+
 
 
 ### Größen, Abstände und Rahmen (Boxmodel)
