@@ -157,7 +157,7 @@ Einige HTML Elemente brauchen notwendigerweise Zusatzinformationen, um zu funkti
 > [!important]
 > Je sorgfältiger man von Anfang arbeiten, desto weniger Vorgangsfehler entstehen in der weiteren Entwicklung einer Website.
 
-<br><br><br>
+<br>
    
 #### Inline Elemente (nehmen nur die Breite ihres Inhalts)
 
