@@ -245,6 +245,7 @@ p {
 | Eigenschaft           | Beschreibung                                          | Beispiel                            |
 |-----------------------|-------------------------------------------------------|-------------------------------------|
 | `background-color`    | Legt die Hintergrundfarbe fest.                       | `background-color: yellow;`         |
+| `background-image`    | verknüpft über url Funktion ein hinterlegtes Bild und legt es als Hintergrund fest.                       | `background-image: url(../bilder/hintergrund.jpg);`         |
 | `background-size`     | Bestimmt die Größe des Hintergrundbildes.             | `background-size: cover;`           |
 | `background-repeat`   | Legt fest, ob und wie das Hintergrundbild wiederholt wird. | `background-repeat: no-repeat;`     |
 | `background-position` | Definiert die Position des Hintergrundbildes.         | `background-position: center;`      |
