@@ -199,7 +199,7 @@ p {
 <br>
 
 
-<!--
+
 
 ### Textformatierung
 | Eigenschaft       | Beschreibung                                   | Beispiel                        |
@@ -212,6 +212,10 @@ p {
 | `font-style`      | Legt den Stil der Schrift fest (z.B. kursiv).  | `font-style: italic;`           |
 
 [zurück zur Inhaltsübersicht](#inhalt)
+
+<br>
+
+<!--
 
 <br>
 
