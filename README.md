@@ -201,18 +201,6 @@ p {
 
 <!--
 
-## Selektoren
-| Selektor              | Beschreibung                                          | Beispiel                            |
-|-----------------------|-------------------------------------------------------|-------------------------------------|
-| Elementselektor       | Wählt alle Elemente eines bestimmten Typs aus.        | `p { color: blue; }`                |
-| Klassen-Selektor      | Wählt alle Elemente mit einer bestimmten Klasse aus.  | `.classname { color: red; }`        |
-| Nachfahren-Selektor   | Wählt alle Elemente innerhalb eines bestimmten Elternteils aus. | `div p { color: green; }`          |
-| `:hover`              | Pseudoklasse für den Hover-Zustand eines Elements.    | `a:hover { color: red; }`           |
-
-[zurück zur Inhaltsübersicht](#inhalt)
-
-<br>
-
 ### Textformatierung
 | Eigenschaft       | Beschreibung                                   | Beispiel                        |
 |-------------------|------------------------------------------------|---------------------------------|
@@ -226,6 +214,19 @@ p {
 [zurück zur Inhaltsübersicht](#inhalt)
 
 <br>
+
+## Selektoren
+| Selektor              | Beschreibung                                          | Beispiel                            |
+|-----------------------|-------------------------------------------------------|-------------------------------------|
+| Elementselektor       | Wählt alle Elemente eines bestimmten Typs aus.        | `p { color: blue; }`                |
+| Klassen-Selektor      | Wählt alle Elemente mit einer bestimmten Klasse aus.  | `.classname { color: red; }`        |
+| Nachfahren-Selektor   | Wählt alle Elemente innerhalb eines bestimmten Elternteils aus. | `div p { color: green; }`          |
+| `:hover`              | Pseudoklasse für den Hover-Zustand eines Elements.    | `a:hover { color: red; }`           |
+
+[zurück zur Inhaltsübersicht](#inhalt)
+
+<br>
+
 
 ### Größen, Abstände und Rahmen (Boxmodel)
 | Eigenschaft | Beschreibung                            | Beispiel              |
