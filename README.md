@@ -313,13 +313,15 @@ Diese praktischen Kombinationen funktionieren nur in VS Code:
 - `p` + `tab`          = erzeugt ein HTML Textabsatz (wenn ihr h1 wählt erzeugt es eine h1 Überschrift etc.)
 - `AltGr` + `7`        = erzeugt die geschweiften Klammern , den Deklarationsblock in CSS `{ }`
 
-**Zusatz**
+**nur wenn man sich mit allen anderen Tastenkombinationen wohlfühlt:**
 
 - `Alt` + `Pfeiltaste` = Zeilen verschieben, hoch/runter
 - `Alt` + `z`          = Zeilenumbruch anschalten/ausschalten
 - `STRG`+ `l`          = Zeile markieren
 
 <br><br>
+
+**nur für Neugierige**
 
 #### Emmet Abkürzungen in VS Code
 
