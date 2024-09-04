@@ -313,17 +313,13 @@ Diese praktischen Kombinationen funktionieren nur in VS Code:
 - `p` + `tab`          = erzeugt ein HTML Textabsatz (wenn ihr h1 wählt erzeugt es eine h1 Überschrift etc.)
 - `AltGr` + `7`        = erzeugt die geschweiften Klammern , den Deklarationsblock in CSS `{ }`
 
-[zurück zur Inhaltsübersicht](#inhalt)
- <br>
-
-<!--
+**Zusatz**
 
 - `Alt` + `Pfeiltaste` = Zeilen verschieben, hoch/runter
 - `Alt` + `z`          = Zeilenumbruch anschalten/ausschalten
 - `STRG`+ `l`          = Zeile markieren
 
-[zurück zur Inhaltsübersicht](#inhalt)
- <br>
+<br><br>
 
 #### Emmet Abkürzungen in VS Code
 
@@ -339,4 +335,7 @@ Emmet sind Kurzformen, die VS Code zu Code umschreibt, hier einige kurze Beispie
 > Ihr könnt diese Elemente miteinander kombinieren und damit sehr umfangreiche Codeblöcke bauen. Benutzt diese aber erst, wenn ihr euch mit eurem html sicher seid. Je länger eure Kombinationen sind, desto leichter könnt ihr Fehler produzieren und den Überblick verlieren. Es gibt diese Emmet Abkürzungen auch für CSS. Einen (sehr) umfangreichen Überblick über die verschiedenen Möglichkeiten findet ihr hier:
 ***[Emmet Cheat Sheet](https://docs.emmet.io/cheat-sheet/)***
 
--->
+
+[zurück zur Inhaltsübersicht](#inhalt)
+ <br>
+
