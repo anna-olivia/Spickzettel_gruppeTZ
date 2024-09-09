@@ -22,6 +22,7 @@
 
 2. [CSS-Eigenschaften](#css-eigenschaften)
     - [Textformatierung](#textformatierung)
+    - [Selektoren](#selektoren)
     - [Größen](#größen-abstände-und-rahmen-boxmodel)
     - [Hintergrund](#hintergrund)
 3. [JavaScript](#3-js-die-websprache-für-die-dynamik-einer-website)
