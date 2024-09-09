@@ -236,7 +236,7 @@ p {
 
 <!-- 
 
-## Hintergrund
+### Hintergrund
 | Eigenschaft           | Beschreibung                                          | Beispiel                            |
 |-----------------------|-------------------------------------------------------|-------------------------------------|
 | `background-color`    | Legt die Hintergrundfarbe fest.                       | `background-color: yellow;`         |
@@ -279,20 +279,35 @@ p {
 
 <br>
 
-<br><br><br>
-## 3. JS die Websprache für die Dynamik einer Website
-
 
 -->
 <br>
 
 ## Selektoren
+### reine CSS Selektoren
+
 | Selektor              | Beschreibung                                          | Beispiel                            |
 |-----------------------|-------------------------------------------------------|-------------------------------------|
 | Typselektor       | Wählt alle Elemente eines bestimmten Typs aus.        | `p { color: blue; }`                |
 | Kind-Selektor      | Wählt alle Kindelemente innerhalb eines ausgewählten Typus aus.  | `main > section { color: red; }`        |
 | Nachfahren-Selektor   | Wählt alle Elemente innerhalb eines bestimmten Elternteils aus. | `div p { color: green; }`          |
 | `:nth-of-type()`              | Wählt alle Elemente die in dem gewählten Typus an einer bestimmten Stelle vorkommen  -> im Beispiel werden alle p Elemente ausgewählt die an 1.Stelle in einer bestimmten Reihenfolge vorkommen  | `p:nth-of-type(1) { color: red; }`           |
+
+<br>
+
+### Selektoren mit HTML
+
+Es gibt CSS Selektoren, die brauchen zusätzlich eine Veränderung in unserem HTML Dokument. Durch das setzen von Attributen, auf die diese Selektoren zugreifen, wird der Konvention **Trennung
+von Zuständigkeiten** (jede Websprache hat ihren Aufgabenbereich) nicht befolgt. Man sollte grundsätzlich in Maßen mit dem Klassenselektor umgehen. Klasseneigenschaften von HTML Elementen sind wertvoll wenn sie gestalterisch gruppieren. 
+**Ids als Attribute für gestalterische Zwecke zu nutzen, wird nicht empfohlen** 
+ 
+
+| Selektor              | Beschreibung                                          | Beispiel                            |
+|-----------------------|-------------------------------------------------------|-------------------------------------|
+| Klassenselektor       | Wählt alle Elemente aus die eine Klasse als Eigenschaft erhalten haben. Der Wert der Klasse und der . ist die Referenz für die Auswahl       | `.active { background-color: orange; }`                |
+
+
+<br>
 
 [zurück zur Inhaltsübersicht](#inhalt)
 
