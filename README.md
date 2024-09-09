@@ -24,7 +24,7 @@
     - [Textformatierung](#textformatierung)
     - [Größen](#größen-abstände-und-rahmen-boxmodel)
     - [Hintergrund](#hintergrund)
-Wie wähle ich HTML Elemente aus, um Eigenschaften zu ändern:
+2. CSS-Selektoren - Wie wähle ich HTML Elemente aus, um Eigenschaften zu ändern:
     - [Selektoren](#selektoren)
   
 3. [JavaScript](#3-js-die-websprache-für-die-dynamik-einer-website)
