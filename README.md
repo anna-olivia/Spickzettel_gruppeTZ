@@ -24,8 +24,9 @@
     - [Textformatierung](#textformatierung)
     - [Größen](#größen-abstände-und-rahmen-boxmodel)
     - [Hintergrund](#hintergrund)
-2. CSS-Selektoren - Wie wähle ich HTML Elemente aus, um Eigenschaften zu ändern:
-    - [Selektoren](#selektoren)
+2. [CSS-Selektoren](#selektoren) 
+    - [reine CSS-Selektoren](#selektoren)
+    - [Selektoren mit HTML Attributen](#selektoren-mit-html)
   
 3. [JavaScript](#3-js-die-websprache-für-die-dynamik-einer-website)
 
@@ -219,20 +220,6 @@ p {
 <br>
 
 
-<br>
-
-## Selektoren
-| Selektor              | Beschreibung                                          | Beispiel                            |
-|-----------------------|-------------------------------------------------------|-------------------------------------|
-| Typselektor       | Wählt alle Elemente eines bestimmten Typs aus.        | `p { color: blue; }`                |
-| Kind-Selektor      | Wählt alle Kindelemente innerhalb eines ausgewählten Typus aus.  | `main > section { color: red; }`        |
-| Nachfahren-Selektor   | Wählt alle Elemente innerhalb eines bestimmten Elternteils aus. | `div p { color: green; }`          |
-| `:nth-of-type()`              | Wählt alle Elemente die in dem gewählten Typus an einer bestimmten Stelle vorkommen  -> im Beispiel werden alle p Elemente ausgewählt die an 1.Stelle in einer bestimmten Reihenfolge vorkommen  | `p:nth-of-type(1) { color: red; }`           |
-
-[zurück zur Inhaltsübersicht](#inhalt)
-
-<br>
-
 
 ### Größen, Abstände und Rahmen (Boxmodel)
 | Eigenschaft | Beschreibung                            | Beispiel              |
@@ -297,6 +284,20 @@ p {
 
 
 -->
+<br>
+
+## Selektoren
+| Selektor              | Beschreibung                                          | Beispiel                            |
+|-----------------------|-------------------------------------------------------|-------------------------------------|
+| Typselektor       | Wählt alle Elemente eines bestimmten Typs aus.        | `p { color: blue; }`                |
+| Kind-Selektor      | Wählt alle Kindelemente innerhalb eines ausgewählten Typus aus.  | `main > section { color: red; }`        |
+| Nachfahren-Selektor   | Wählt alle Elemente innerhalb eines bestimmten Elternteils aus. | `div p { color: green; }`          |
+| `:nth-of-type()`              | Wählt alle Elemente die in dem gewählten Typus an einer bestimmten Stelle vorkommen  -> im Beispiel werden alle p Elemente ausgewählt die an 1.Stelle in einer bestimmten Reihenfolge vorkommen  | `p:nth-of-type(1) { color: red; }`           |
+
+[zurück zur Inhaltsübersicht](#inhalt)
+
+<br>
+<br>
 
 ## 4. Nützliche Tastenkombinationen
 
