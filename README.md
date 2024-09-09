@@ -215,17 +215,16 @@ p {
 
 <br>
 
-<!--
 
 <br>
 
 ## Selektoren
 | Selektor              | Beschreibung                                          | Beispiel                            |
 |-----------------------|-------------------------------------------------------|-------------------------------------|
-| Elementselektor       | Wählt alle Elemente eines bestimmten Typs aus.        | `p { color: blue; }`                |
-| Klassen-Selektor      | Wählt alle Elemente mit einer bestimmten Klasse aus.  | `.classname { color: red; }`        |
+| Typselektor       | Wählt alle Elemente eines bestimmten Typs aus.        | `p { color: blue; }`                |
+| Kind-Selektor      | Wählt alle Kindelemente innerhalb eines ausgewählten Typus aus.  | `main > section { color: red; }`        |
 | Nachfahren-Selektor   | Wählt alle Elemente innerhalb eines bestimmten Elternteils aus. | `div p { color: green; }`          |
-| `:hover`              | Pseudoklasse für den Hover-Zustand eines Elements.    | `a:hover { color: red; }`           |
+| `:nth-of-type()`              | Wählt alle Elemente die in dem gewählten Typus an einer bestimmten Stelle vorkommen  -> im Beispiel werden alle p Elemente ausgewählt die an 1.Stelle in einer bestimmten Reihenfolge vorkommen  | `p:nth-of-type(1) { color: red; }`           |
 
 [zurück zur Inhaltsübersicht](#inhalt)
 
@@ -244,6 +243,8 @@ p {
 [zurück zur Inhaltsübersicht](#inhalt)
 
 <br>
+
+<!-- 
 
 ## Hintergrund
 | Eigenschaft           | Beschreibung                                          | Beispiel                            |
