@@ -255,6 +255,8 @@ p {
 
 <br>
 
+
+
 ## Flex (erste Schritte)
 ### Flexbox gehört zu den modernen Layouttechniken, die Ausrichtung der Kindelemente flexibel steuert
 
@@ -324,6 +326,24 @@ von Zuständigkeiten** (jede Websprache hat ihren Aufgabenbereich) nicht befolgt
 [zurück zur Inhaltsübersicht](#inhalt)
 
 <br>
+
+### Hyperlinks gestalten
+**Hyperlinks sind klickbare Elemente und können auch je nach Zustand (wurde Link geklickt?, läuft die Maus über den Link?) gestaltet werden**
+
+> [!important]
+> Falls ihr mehr als einen Zustand gestalten wollt, haltet euch beim Styling an die Hierarchie der möglichen Zustände
+
+| Eigenschaft           | Beschreibung                                          | Beispiel                            |
+|-----------------------|-------------------------------------------------------|-------------------------------------|
+| `:link`    | gestaltet den Link im unberührten/ungeklickten/unbesuchten Zustand                       | `a:link {text-decoration: none;}`         |
+| `:visited`    | gestaltet den Link im schon zuvor besuchten Zustand                       | `a:visted { color: purple;}`         |
+| `:active`     | gestaltet den Link im aktiven Zustand - wenn man den Link gedrückt hält             | `a:hover { box-shadow: 5px 5px 15px solid purple;}`           |
+| `:hover`   | gestaltet den Link, wenn Maus drüber läuft | `a:hover {text-decoration: underline;}`     |
+
+<br>
+
+[zurück zur Inhaltsübersicht](#inhalt)
+
 <br>
 
 ## 4. Nützliche Tastenkombinationen
