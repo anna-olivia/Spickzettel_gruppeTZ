@@ -176,12 +176,143 @@ Einige HTML Elemente brauchen notwendigerweise Zusatzinformationen, um zu funkti
 <br>
 
 ## 2. CSS die Websprache für die Gestaltung einer Website
+<br>
+
+## CSS-Eigenschaften
+
+**CSS** steht für ***Cascading Style Sheets*** und wird verwendet, um das Aussehen von HTML-Elementen auf einer Webseite zu definieren. Mit CSS können verschiedene Eigenschaften wie Farbe, Schriftart und Positionierung definiert werden. Durch die Trennung von Inhalt und Design wird das Ändern des Aussehens der Webseite einfacher, da nur das CSS geändert werden muss, ohne den HTML-Code zu bearbeiten.
+
+
+Da es sich bei CSS, um eine andere Websprache handelt, müssen wir auch die Schreibweise ändern:
+
+```
+ /* auch die Kommentare sehen in CSS anders aus, werden aber noch mit strg + # ausgelöst */
+/* p ist hier der Selektor (Auswahlwerkzeug) und teilt dem Browser mit,
+ dass alle HTML Elemente des Typus p ausgewählt werden sollen,
+ um dann die Eigenschaften dieser Elementeändern zu können */
+
+p {
+    color: blue;
+/* Eigenschaft: Wert; */
+  }
+
+```
+
+[zurück zur Inhaltsübersicht](#inhalt)
+
+<br>
 
 
 
-## 3. JS die Websprache für die Dynamik einer Website
+
+### Textformatierung
+| Eigenschaft       | Beschreibung                                   | Beispiel                        |
+|-------------------|------------------------------------------------|---------------------------------|
+| `color`           | Setzt die Textfarbe.                           | `color: blue;`                  |
+| `font-size`       | Bestimmt die Schriftgröße.                     | `font-size: 16px;`              |
+| `text-decoration` | Fügt Dekorationen wie Unterstreichungen hinzu. | `text-decoration: underline;`   |
+| `font-weight`     | Definiert die Dicke der Schrift.               | `font-weight: bold;`            |
+| `font-family`     | Bestimmt die Schriftart.                       | `font-family: Arial, sans-serif;`|
+| `font-style`      | Legt den Stil der Schrift fest (z.B. kursiv).  | `font-style: italic;`           |
+
+[zurück zur Inhaltsübersicht](#inhalt)
+
+<br>
 
 
+
+### Größen, Abstände und Rahmen (Boxmodel)
+| Eigenschaft | Beschreibung                            | Beispiel              |
+|-------------|-----------------------------------------|-----------------------|
+| `width`     | Setzt die Breite eines Elements.        | `width: 100px;`       |
+| `height`    | Bestimmt die Höhe eines Elements.       | `height: 200px;`      |
+| `margin`    | Bestimmt den Außenabstand eines Elements. | `margin: 20px;`       |
+| `padding`   | Setzt den Innenabstand eines Elements.  | `padding: 15px;`      |
+| `border`    | Definiert die Rahmenlinie eines Elements. | `border: 1px solid black;` |
+
+[zurück zur Inhaltsübersicht](#inhalt)
+
+<br>
+
+<!-- 
+
+### Hintergrund
+| Eigenschaft           | Beschreibung                                          | Beispiel                            |
+|-----------------------|-------------------------------------------------------|-------------------------------------|
+| `background-color`    | Legt die Hintergrundfarbe fest.                       | `background-color: yellow;`         |
+| `background-image`    | verknüpft über url Funktion ein hinterlegtes Bild und legt es als Hintergrund fest.                       | `background-image: url(../bilder/hintergrund.jpg);`         |
+| `background-size`     | Bestimmt die Größe des Hintergrundbildes.             | `background-size: cover;`           |
+| `background-repeat`   | Legt fest, ob und wie das Hintergrundbild wiederholt wird. | `background-repeat: no-repeat;`     |
+| `background-position` | Definiert die Position des Hintergrundbildes.         | `background-position: center;`      |
+| `background-attachment` | Legt fest, ob das Hintergrundbild scrollt oder fixiert ist. | `background-attachment: fixed;` |
+
+
+[zurück zur Inhaltsübersicht](#inhalt)
+
+<br>
+
+## Flex (erste Schritte)
+| Eigenschaft      | Beschreibung                                            | Beispiel                        |
+|------------------|---------------------------------------------------------|---------------------------------|
+| `display`        | Legt den flexiblen Container fest und stellt so Kinder nebeneinander.    (Achtung: display wird nicht nur für flex verwendet!)                   | `display: flex;`                |
+| `justify-content`| Bestimmt die Ausrichtung der flexiblen Elemente entlang der Hauptachse. (hier horizontal) | `justify-content: center;`      |
+| `align-items`    | Bestimmt die Ausrichtung der flexiblen Elemente entlang der Querachse. (hier: vertikal) | `align-items: center;`          |
+| `gap`            | Legt den Abstand zwischen den flexiblen Elementen fest. | `gap: 10px;`                    |
+| `flex-wrap`      | Bestimmt, ob die flexiblen Elemente in einer einzigen Zeile oder in mehreren Zeilen angezeigt werden. | `flex-wrap: wrap;`              |
+
+[zurück zur Inhaltsübersicht](#inhalt)
+
+<br>
+
+## Erweiterte CSS-Effekte
+| Eigenschaft           | Beschreibung                                          | Beispiel                            |
+|-----------------------|-------------------------------------------------------|-------------------------------------|
+| `transition`          | Definiert Übergangseffekte zwischen zwei Zuständen eines Elements. | `transition: all 0.3s ease;`       |
+| `box-shadow`          | Fügt einem Element einen Schatten hinzu.              | `box-shadow: 0px 4px 8px rgba(0,0,0,0.3);` |
+
+
+
+
+
+
+[zurück zur Inhaltsübersicht](#inhalt)
+
+<br>
+
+
+-->
+<br>
+
+## Selektoren
+### reine CSS Selektoren
+
+| Selektor              | Beschreibung                                          | Beispiel                            |
+|-----------------------|-------------------------------------------------------|-------------------------------------|
+| Typselektor       | Wählt alle Elemente eines bestimmten Typs aus.        | `p { color: blue; }`                |
+| Kind-Selektor      | Wählt alle Kindelemente innerhalb eines ausgewählten Typus aus.  | `main > section { color: red; }`        |
+| Nachfahren-Selektor   | Wählt alle Elemente innerhalb eines bestimmten Elternteils aus. | `div p { color: green; }`          |
+| `:nth-of-type()`              | Wählt alle Elemente die in dem gewählten Typus an einer bestimmten Stelle vorkommen  -> im Beispiel werden alle p Elemente ausgewählt die an 1.Stelle in einer bestimmten Reihenfolge vorkommen  | `p:nth-of-type(1) { color: red; }`           |
+
+<br>
+
+### Selektoren mit HTML
+
+Es gibt CSS Selektoren, die brauchen zusätzlich eine Veränderung in unserem HTML Dokument. Durch das setzen von Attributen, auf die diese Selektoren zugreifen, wird der Konvention **Trennung
+von Zuständigkeiten** (jede Websprache hat ihren Aufgabenbereich) nicht befolgt. Man sollte grundsätzlich in Maßen mit dem Klassenselektor umgehen. Klasseneigenschaften von HTML Elementen sind wertvoll wenn sie gestalterisch gruppieren. 
+**Ids als Attribute für gestalterische Zwecke zu nutzen, wird nicht empfohlen** 
+ 
+
+| Selektor              | Beschreibung                                          | Beispiel                            |
+|-----------------------|-------------------------------------------------------|-------------------------------------|
+| Klassenselektor       | Wählt alle Elemente aus die eine Klasse als Eigenschaft erhalten haben. Der Wert der Klasse und der . ist die Referenz für die Auswahl       | `.active { background-color: orange; }`                |
+
+
+<br>
+
+[zurück zur Inhaltsübersicht](#inhalt)
+
+<br>
+<br>
 
 ## 4. Nützliche Tastenkombinationen
 
@@ -196,7 +327,8 @@ Tastenkombinationen, die in **VS Code** und anderen Programmen funktionieren:
 - Speichern        = `STRG` + `s`
 - alles markieren  = `STRG` + `a`
 
-<!--
+
+<br>
 
 ### VS-Code
 
