@@ -20,11 +20,12 @@
         - [Block Elemente](#block-elemente-nehmen-die-gesamte-breite-des-elternelements-ein)
         - [Inline Elemente](#inline-elemente-nehmen-nur-die-breite-ihres-inhalts)
 
-2. [CSS-Eigenschaften](#css-eigenschaften)
+2. [CSS - die Gestaltung einer Website](#2-css-die-websprache-für-die-gestaltung-einer-websiteCSS-die-websprache-für-die-gestaltung-einer-website) 
+- [CSS-Eigenschaften](#css-eigenschaften)
     - [Textformatierung](#textformatierung)
     - [Größen](#größen-abstände-und-rahmen-boxmodel)
     - [Hintergrund](#hintergrund)
-2. [CSS-Selektoren](#selektoren) 
+- [CSS-Selektoren](#selektoren) 
     - [reine CSS-Selektoren](#selektoren)
     - [Selektoren mit HTML Attributen](#selektoren-mit-html)
   
@@ -36,7 +37,7 @@
 <br><br><br>
 
 
-## 1. HTML die Websprache für das Gerüst einer Website
+## 1. HTML die Websprache für die logische Struktur des Inhalts einer Website
 
 ## HTML-Elemente
 **HTML** steht für ***Hypertext Markup Language*** und ist eine Auszeichnungssprache, die verwendet wird, um den Inhalt einer Webseite zu strukturieren und zu kennzeichnen. HTML ist zuständig für die Markierung verschiedener Elemente wie Überschriften, Fließtexte, Bilder und Links, damit der Webbrowser die Elemente den Nutzern anzeigen und für weitere Zwecke nutzen kann. In der Regel sind HTML Elemente valide – also gültig – wenn sie ein sogenanntes **Start - und Endtag** aufweisen.
@@ -178,6 +179,9 @@ Einige HTML Elemente brauchen notwendigerweise Zusatzinformationen, um zu funkti
 ## 2. CSS die Websprache für die Gestaltung einer Website
 <br>
 
+
+![CSS](./assets/CSS-intro.png) *Abb.: CSS im Überblick*
+
 ## CSS-Eigenschaften
 
 **CSS** steht für ***Cascading Style Sheets*** und wird verwendet, um das Aussehen von HTML-Elementen auf einer Webseite zu definieren. Mit CSS können verschiedene Eigenschaften wie Farbe, Schriftart und Positionierung definiert werden. Durch die Trennung von Inhalt und Design wird das Ändern des Aussehens der Webseite einfacher, da nur das CSS geändert werden muss, ohne den HTML-Code zu bearbeiten.
@@ -234,7 +238,7 @@ p {
 
 <br>
 
-<!-- 
+
 
 ### Hintergrund
 | Eigenschaft           | Beschreibung                                          | Beispiel                            |
@@ -252,13 +256,21 @@ p {
 <br>
 
 ## Flex (erste Schritte)
+### Flexbox gehört zu den modernen Layouttechniken, die Ausrichtung der Kindelemente flexibel steuert
+
 | Eigenschaft      | Beschreibung                                            | Beispiel                        |
 |------------------|---------------------------------------------------------|---------------------------------|
 | `display`        | Legt den flexiblen Container fest und stellt so Kinder nebeneinander.    (Achtung: display wird nicht nur für flex verwendet!)                   | `display: flex;`                |
 | `justify-content`| Bestimmt die Ausrichtung der flexiblen Elemente entlang der Hauptachse. (hier horizontal) | `justify-content: center;`      |
 | `align-items`    | Bestimmt die Ausrichtung der flexiblen Elemente entlang der Querachse. (hier: vertikal) | `align-items: center;`          |
 | `gap`            | Legt den Abstand zwischen den flexiblen Elementen fest. | `gap: 10px;`                    |
-| `flex-wrap`      | Bestimmt, ob die flexiblen Elemente in einer einzigen Zeile oder in mehreren Zeilen angezeigt werden. | `flex-wrap: wrap;`              |
+
+**die goldene Mitte - Kindelemente werden horizontal und vertikal zentriert kann man über lediglich drei Eigenschaft-Wert Paare erzeugen - `display: flex; justify-content: center; align-items: center;`**
+
+<br>
+
+> [!important]
+> Diese Technik lohnt sich, wenn ein Elternelement mehr als 1 Kind besitzt, da die Ausrichtung von Kindelementen innerhalb eines Elternelements beeinflusst wird.
 
 [zurück zur Inhaltsübersicht](#inhalt)
 
