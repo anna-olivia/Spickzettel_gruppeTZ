@@ -26,7 +26,7 @@
 
 <br><br><br>
 
-<!--
+
 ## 1. HTML die Websprache für das Gerüst einer Website
 
 ## HTML-Elemente
@@ -139,7 +139,6 @@
 ## 3. JS die Websprache für die Dynamik einer Website
 
 
--->
 
 ## 4. Nützliche Tastenkombinationen
 
@@ -153,7 +152,7 @@ Tastenkombinationen, die in **VS Code** und anderen Programmen funktionieren:
 - Speichern        = `STRG` + `s`
 - alles markieren  = `STRG` + `a`
 
-<!--
+
 
 ### VS-Code
 
