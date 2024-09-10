@@ -25,9 +25,11 @@
     - [Textformatierung](#textformatierung)
     - [Größen](#größen-abstände-und-rahmen-boxmodel)
     - [Hintergrund](#hintergrund)
+    - [Flexbox](#flex-erste-schritte)
 - [CSS-Selektoren](#selektoren) 
     - [reine CSS-Selektoren](#selektoren)
     - [Selektoren mit HTML Attributen](#selektoren-mit-html)
+- [Hyperlinks gestalten](#hyperlinks-gestalten)
   
 3. [JavaScript](#3-js-die-websprache-für-die-dynamik-einer-website)
 
