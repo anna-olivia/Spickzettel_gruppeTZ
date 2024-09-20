@@ -366,7 +366,7 @@ Tastenkombinationen, die in **VS Code** und anderen Programmen funktionieren:
 
 ### VS-Code
 
-Diese praktischen Kombinationen funktionieren nur in VS Code:
+Diese praktischen Kombinationen funktionieren nur in VS Code unter windows:
 - `STRG`+ `#`          = erzeugt einen Kommentar 
 - `!`+ `tab`          = erzeugt das HTML Grundgerüst (auch boilerplate genannt) 
 - `p` + `tab`          = erzeugt ein HTML Textabsatz (wenn ihr h1 wählt erzeugt es eine h1 Überschrift etc.)
