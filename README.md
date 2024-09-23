@@ -59,12 +59,12 @@
 ---
 
 > [!TIP]
-> nur wenn Texte, Bilder etc. richtig markiert wurden, können wir sie später färben, ausrichten, gestalten ohne Verfahrensfehler zu riskieren! 
+> nur wenn Texte, Bilder etc. richtig markiert wurden, können sie später gefärbt, ausgerichtet, allgmein gestaltet werden ohne dabei Verfahrensfehler zu riskieren! 
 
 ---
 
 > [!TIP]  
-> Kommentare sind für uns Menschen wichtig damit wir Code in der Entwicklungsumgebung nachvollziehen können und Kolleg*innen und uns Hinweise zum Code zu geben. Kommentare werden im Browser nicht für die Nutzer angezeigt. 
+> Kommentare sind für Menschen wichtig, damit Code in der Entwicklungsumgebung nachvollbar wird. Sie sind nützlich, um Hinweise zum Code zu geben. Kommentare werden im Browser nicht für Nutzer *innen angezeigt. 
 
 <br><br><br>
 
@@ -96,7 +96,7 @@
 
 <br><br><br>
 
-### Head-Elemente (erscheinen nicht auf der Seite, sondern nur Infos für den Browser und Google)
+### Head-Elemente (erscheinen nicht auf der Website, sondern sind Infos für den Browser und bspw. auch Google)
 
 | HTML-Element | Beschreibung                                           | Beispiel                                 |
 |:------------:|:------------------------------------------------------:|:----------------------------------------:|
@@ -108,7 +108,7 @@
 
 
 
-### Body-Elemente (der sichtbare Bereich eurer Webseite)
+### Body-Elemente (der sichtbare Bereich einer Webseite)
     
 | HTML-Element  | Beschreibung                               | Beispiel                             |
 |:-------------:|:------------------------------------------:|:------------------------------------:|
@@ -122,7 +122,7 @@
 
 #### HTML Attribute
 
-Einige HTML Elemente brauchen notwendigerweise Zusatzinformationen, um zu funktionieren. Diese Zusatzinformationen müssen wir mit einem sogenannten Schlüssel-Wert Paar im Starttag des jeweiligen HTML Elements angeben. 
+Einige HTML Elemente brauchen notwendigerweise Zusatzinformationen, um zu funktionieren. Diese Zusatzinformationen müssen mit einem sogenannten Schlüssel-Wert Paar im Starttag des jeweiligen HTML Elements angegeben werden. 
 
 | HTML-Attribut  | Beschreibung                               | Beispiel                             |
 |:-------------:|:------------------------------------------:|:------------------------------------:|
@@ -186,16 +186,16 @@ Einige HTML Elemente brauchen notwendigerweise Zusatzinformationen, um zu funkti
 
 ## CSS-Eigenschaften
 
-**CSS** steht für ***Cascading Style Sheets*** und wird verwendet, um das Aussehen von HTML-Elementen auf einer Webseite zu definieren. Mit CSS können verschiedene Eigenschaften wie Farbe, Schriftart und Positionierung definiert werden. Durch die Trennung von Inhalt und Design wird das Ändern des Aussehens der Webseite einfacher, da nur das CSS geändert werden muss, ohne den HTML-Code zu bearbeiten.
+**CSS** steht für ***Cascading Style Sheets*** und wird verwendet, um HTML-Elementen in ihrem Standardaussehen auf einer Webseite zu verändern. Mit CSS können verschiedene Eigenschaften wie Farbe, Schriftart und Positionierung bearbeitet werden. Konventionen, wie etwa "die Trennung von Zuständigkeiten" ermöglicht es nicht nur strukturiert und übersichtlich zu arbeiten, sondern auch externe Stylesheets wiederzuverwenden. Deswegen sollte man das externe stylesheet dem internen styleheet bevorzugen und auf inline Styling verzichten (hier geht es darüberhinaus um bestimmte Browserkonzepte wie bspw. die Spezifizität, die greifen können und die Pflege/Wartung eines Webauftritts erschweren und behindern können)
 
 
-Da es sich bei CSS, um eine andere Websprache handelt, müssen wir auch die Schreibweise ändern:
+Da es sich bei CSS, um eine andere Websprache als HTML handelt, ändert sich auch die Syntax (Schreibweise) :
 
 ```
  /* auch die Kommentare sehen in CSS anders aus, werden aber noch mit strg + # ausgelöst */
 /* p ist hier der Selektor (Auswahlwerkzeug) und teilt dem Browser mit,
  dass alle HTML Elemente des Typus p ausgewählt werden sollen,
- um dann die Eigenschaften dieser Elementeändern zu können */
+ um dann die Eigenschaften dieser Elemente im Deklarationsblock (Bereich innerhalb der geschweiften Klammern) ändern zu können */
 
 p {
     color: blue;
@@ -387,7 +387,7 @@ Emmet sind Kurzformen, die VS Code zu Code umschreibt, hier einige kurze Beispie
 - `lorem50`         = erzeugt einen Lorem-Text mit 50 Worten
 - `div.box`         = erzeugt eine `<div class="box">`
 - `ul>li*3`         = erzeugt eine `<ul>` mit 3 `<li>`Elementen
-- `a{weiterlesen}`  = erzeugt ein `<a href="">weiterlesen</a>`
+- `a{mehr dazu}`  = erzeugt ein `<a href="">mehr dazu</a>`
 - `section>img+p+a` = erzeugt eine Sektion und darin ein `<img>`, `<p>`und ein `<a>`
 
 > [!important]
