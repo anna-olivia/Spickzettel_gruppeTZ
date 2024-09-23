@@ -31,7 +31,7 @@
     - [Selektoren mit HTML Attributen](#selektoren-mit-html)
 - [Hyperlinks gestalten](#hyperlinks-gestalten)
   
-3. [JavaScript](#3-js-die-websprache-für-die-dynamik-einer-website)
+<!-- 3. [JavaScript](#3-js-die-websprache-für-die-dynamik-einer-website) -->
 
 4. [nützliche Tastenkombinationen](#4-nützliche-tastenkombinationen)
 
@@ -296,7 +296,6 @@ p {
 <br>
 
 
--->
 <br>
 
 ## Selektoren
@@ -333,7 +332,7 @@ von Zuständigkeiten** (jede Websprache hat ihren Aufgabenbereich) nicht befolgt
 **Hyperlinks sind klickbare Elemente und können auch je nach Zustand (wurde Link geklickt?, läuft die Maus über den Link?) gestaltet werden**
 
 > [!important]
-> Falls ihr mehr als einen Zustand gestalten wollt, haltet euch beim Styling an die Hierarchie der möglichen Zustände
+> Falls mehr als ein Zustand gestaltet wird, ist die Hierarchie der möglichen Zustände zu beachten
 
 | Eigenschaft           | Beschreibung                                          | Beispiel                            |
 |-----------------------|-------------------------------------------------------|-------------------------------------|
