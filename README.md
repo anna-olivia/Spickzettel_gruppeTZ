@@ -379,7 +379,6 @@ Diese praktischen Kombinationen funktionieren nur in VS Code unter windows:
 
 <br><br>
 
-**nur für Neugierige**
 
 #### Emmet Abkürzungen in VS Code
 
